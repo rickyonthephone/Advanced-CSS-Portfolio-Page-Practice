@@ -1,6 +1,7 @@
-* {
+*{
     box-sizing:border-box;
 }
+
 .header {
     display: flex;
     flex-wrap:wrap;
@@ -15,18 +16,27 @@ ul {
     display: flex;
     flex-wrap:wrap;
     list-style-type: none;
-    width: 1000px;
+    width: 100%;
     padding-left:60px;
+    padding-right:60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     justify-content: space-between;
     color:black;
+    height:100px;
 }
 
 ul li a{
-    font-size: 24px;
+    font-size: 30px;
     color:black;
     text-emphasis: none;
     text-decoration: none;
 }
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
 .hero {
     max-height: 400px;
     width:100%;
@@ -39,17 +49,15 @@ main {
 }
 
 figcaption {
-    padding: 10px
+    padding: 10px;
 }
 
 figcaption h1{
     justify-content: space-around;
     text-align: center;
-    font-size: 35px;
 }
 
 .PersonalInfo {
-    display: block;
     flex-wrap: wrap;
     flex: 1, 0, 0;
     border-style:solid;
@@ -58,6 +66,16 @@ figcaption h1{
     padding: 5px;
     min-width:375px;
     max-height:1000px;
+    min-height: 375px;
+    text-align: center;
+}
+
+#About-Me.PersonalInfo {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:0;
+    padding-bottom: 40px;
+    text-align: left;
 }
 
 .PersonalInfo img{
@@ -65,22 +83,25 @@ figcaption h1{
     Height:48%;
     min-width:350px;
     object-fit: scale-down;
+    margin-top: 40px;
 }
 
 .PersonalInfo ul{
-    display:block;
+    display:inline;
     flex-wrap:wrap;
     list-style-type: none;
     height:100%;
     width: 100%;
 }
 
-.PersonalInfo li a{
+.links a:hover {
+    text-decoration: underline;
+}
+
+.PersonalInfo a{
     text-emphasis: none;
     text-decoration: none;
     color:black;
-    line-height: .25;
-    font-size: 24px;
 }
 
 .PersonalInfo p{
