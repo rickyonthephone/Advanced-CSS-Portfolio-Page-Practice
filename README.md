@@ -6,17 +6,19 @@ Complete a portfolio page to showcase work and capabilities as well as satisfy a
 
 The URL's to access this work can be found here:
 
-1: 
+1: https://github.com/rickyonthephone/Advanced-CSS-Portfolio-Page-Practice
 
-2:
+2: https://rickyonthephone.github.io/Advanced-CSS-Portfolio-Page-Practice/
 
 A snapshot of the page can be seen below:
 
+Screen Shot:
+https://github.com/rickyonthephone/Advanced-CSS-Portfolio-Page-Practice/blob/master/Assets/Images/Portfolio%20ScreenShot.png
 
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:git statu
 
 ```
 GIVEN I need to sample a potential employee's previous work
